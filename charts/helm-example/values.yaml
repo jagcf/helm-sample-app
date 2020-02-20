@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: r.cfcr.io/guysaltoncf/helm-sample-app-go
+  repository: r.cfcr.io/jagshetty/go-app
   tag: latest
   pullSecret: cfcr
 service:
